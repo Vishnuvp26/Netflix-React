@@ -12,10 +12,7 @@ const App = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    <Toaster
-  position="top-right"
-  reverseOrder={false}
-/>
+    <Toaster position="top-right" reverseOrder={false}/>
     onAuthStateChanged(auth, async (user) => {
       if (user) {
         console.log('logged in');

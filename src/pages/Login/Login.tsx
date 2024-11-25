@@ -31,7 +31,7 @@ const Login = () => {
                         : <></>
                     }
                     <input value={email} onChange={(e) => setEmail(e.target.value)} type="text" placeholder='Your email' />
-                    <input value={password} onChange={(e) => setPassword(e.target.value)} type="text" placeholder='Password' />
+                    <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder='Password' />
                     <button onClick={user_auth} type='submit'>{signState}</button>
                     <div className="form-help">
                         <div className="remember">
